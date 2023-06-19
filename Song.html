@@ -1,0 +1,229 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        html{
+            height: 0;
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #F5F5DC;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        .Banner
+        {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            background-color: #F5F5DC;
+            width: 100%;
+            margin: 0;
+            z-index: 1;
+        }
+        .left {
+            display: flex;
+            align-items: center;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+
+        }
+        li {
+            margin-right: 70px;
+            
+        }
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        i{
+            font-size: 25px;
+            margin-right: 20px;
+        }
+        h1 {
+            padding-left: 20px;
+        }
+        .Footer{
+            display: flex;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .LilPeep{
+            height: 100px;
+        }
+        .Box{
+            border: 1px solid black;
+            border-radius: 15px;
+            padding: 0;
+            margin-top: 100px;
+            position: absolute;
+            top: 0;
+            left: 10%;
+
+        }
+        .Bottom{
+            display: flex;
+            align-items: center;
+        }
+        .PeepImg{
+            border-radius: 15px;
+            height: 300px;
+            margin: 30px;
+        }
+        .Songs{
+            display: flex;
+        }
+        .SongImg{
+            height: 200px;
+            border-radius: 15px;
+        }
+        .block{
+            height: 300px;
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 200px;
+            padding: 20px;
+            background-color: #ddc;
+            margin-right: 30px;
+            
+        }
+        .Slider{
+            top: 50%;
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .bn{
+            height: 100px;
+            font-size: 40px;
+            margin: 40px;
+            border: none;
+            background-color: #F5F5DC;
+        }
+        .bn:hover{
+            background-color: #d3d3ba;
+        }
+        #Left{
+            right: 0;
+        }
+    </style>
+    <title>Home</title>
+</head>
+    <body> 
+        <div class="Banner">
+            <div class="left">
+                <h1>Khalid</h1>
+                <ul>
+                    <li><a href="./Home.html">Home</a></li>
+                    <li><a href="./Song.html"><strong>Songs</strong></a></li>
+                    <li><a href="./TvShows.html">Tv Shows</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="https://www.facebook.com/"><i class='bx bxl-facebook' style="color: #5271FF; " id="Contact"></i></a>
+                <a href="https://www.instagram.com/" class="ContactBn" ><i class='bx bxl-instagram-alt' style=" color:#E397C1" id="Contact"></i></a>
+                <a href="https://twitter.com/" class="ContactBn"><i class='bx bxl-twitter' style=" color:#5271FF;" id="Contact"></i></a>
+            </div>
+        </div>
+        <div class="Footer">
+            <div class="Slider">
+                <button class="bn" id="Left"><</button>
+                <button class="bn" id="Right" >></button>
+            </div>
+            
+            <div class="Box" id="Box1">
+                
+                <div class="Bottom">
+                    <img class="PeepImg" src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcTvWzRuIiH5iP-QvxaNDBDJfqQ-Pdnr_vR01TEdrcAfpJ1ppwV0aRiedeQrSkp6cdURvjOqB0GmcKRTWQc" alt="">
+                    <div class="right"><img class="LilPeep" src="https://blog.logomyway.com/wp-content/uploads/2021/10/Lil-Peep-Logo.png">
+                        <p style="width: 700px;">Gustav Elijah Åhr Swedish pronunciation: [ˈoːr] (November 1, 1996 – November 15, 2017), known professionally as Lil Peep,
+                            was an American rapper and singer-songwriter.[2] He was a member of the emo rap collective GothBoiClique. Helping pioneer 
+                            an emo revival-style of rap and rock music, Lil Peep has been credited as a leading figure of the mid–late 2010s emo rap 
+                            scene and came to be an inspiration to outcasts and youth subcultures.</p>
+                    </div>
+                    
+                </div>
+                <div class="Songs">
+                    <div class="block">
+                        <img class="SongImg" src="https://i.scdn.co/image/ab67616d0000b2736404fdef267b14d7a548f182">
+                        <h3 style="margin-bottom: 0;">Star Shopping</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Lil Peep</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Lil_Peep_2016_Mixtape_Crybaby_Cover.jpg/220px-Lil_Peep_2016_Mixtape_Crybaby_Cover.jpg">
+                        <h3 style="margin-bottom: 0;">Crybaby</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Lil Peep</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ef/Lil_Peep_2016_Mixtape_Crybaby_Cover.jpg/220px-Lil_Peep_2016_Mixtape_Crybaby_Cover.jpg">
+                        <h3 style="margin-bottom: 0;">White tee</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Lil Peep</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://i.etsystatic.com/24368112/r/il/25ed12/3503881935/il_fullxfull.3503881935_hpbl.jpg">
+                        <h3 style="margin-bottom: 0;">Hellboy</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Lil Peep</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <div class="Box" id="Box2" style="display: none;">
+                
+                <div class="Bottom">
+                    <img class="PeepImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Central_Cee_%28cropped%29.jpg/330px-Central_Cee_%28cropped%29.jpg" alt="">
+                    <div class="right"><h1><strong>Central Cee</strong></h1>
+                        <p style="width: 700px;">Oakley Neil H. T. Caesar-Su (born 4 June 1998), known professionally as Central Cee, 
+                            is a British rapper and songwriter from Shepherd's Bush, London.[1] He rose to prominence in 2020 with the
+                             release of the singles "Day in the Life" and "Loading".[5] His first mixtape Wild West was released on 12
+                              March 2021, which debuted at number two on the UK Albums Chart.[6] His second mixtape 23 was released on 
+                              25 February 2022 and debuted atop the UK Albums Chart.</p>
+                    </div>
+                    
+                </div>
+                <div class="Songs">
+                    <div class="block">
+                        <img class="SongImg" src="https://upload.wikimedia.org/wikipedia/en/b/bb/Central_Cee_-_Obsessed_with_You.jpeg">
+                        <h3 style="margin-bottom: 0;">Obsessed With You</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Central Cee</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://images.genius.com/d171b618e2556dc843b36f7f5f54767f.1000x1000x1.jpg">
+                        <h3 style="margin-bottom: 0;">Let Go</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Central Cee</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://i.scdn.co/image/ab67616d0000b273fbd8f34027905f537b9a3f0a">
+                        <h3 style="margin-bottom: 0;">One Up</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Central Cee</p>
+                    </div>
+                    <div class="block">
+                        <img class="SongImg" src="https://images.genius.com/78d937e8e88a7cde747051cf83ceb317.1000x1000x1.png">
+                        <h3 style="margin-bottom: 0;">Doja</h3>
+                        <p style="color: #999; padding: 0; margin: 0;">Central Cee</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+            
+
+        </div>
+    </body>
+    <script src="./Slider.js">
+
+    </script>
+
+</html>
